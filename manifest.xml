@@ -83,5 +83,8 @@
         <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show a Taskpane" />
       </bt:LongStrings>
     </Resources>
-  </VersionOverrides>
+  </VersionOverrides>  
+  <ExtendedOverrides
+    Url="https://localhost:3000/dist/extendedManifest.json">
+  </ExtendedOverrides>
 </OfficeApp>

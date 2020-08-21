@@ -21,6 +21,14 @@ const render = Component => {
   );
 };
 
+Office.actions.associate('SHOWTASKPANE', function () {
+	return Office.addin.showAsTaskpane();
+});
+
+Office.actions.associate('HIDETASKPANE', function () {
+	return Office.addin.hide();
+});
+
 /* Render application after Office initializes */
 Office.initialize = () => {
   isOfficeInitialized = true;

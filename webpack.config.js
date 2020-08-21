@@ -58,6 +58,12 @@ module.exports = async (env, options)  => {
           from: "./src/taskpane/taskpane.css"
         }
       ]),
+      new CopyWebpackPlugin([
+        {
+          to: "extendedManifest.json",
+          from: "./extendedManifest.json"
+        }
+      ]),
       new ExtractTextPlugin('[name].[hash].css'),
       new HtmlWebpackPlugin({
         filename: "taskpane.html",
