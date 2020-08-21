@@ -4,26 +4,14 @@
         {
             "action": "SHOWTASKPANE",
             "key": {
-                "default": "${resource.showtaskpane_defaultkey}"
+                "default": "CTRL+SHIFT+UP"
             }
         },
         {
             "action": "HIDETASKPANE",
             "key": {
-                "default": "${resource.hidetaskpane_defaultkey}"
+                "default": "CTRL+SHIFT+DOWN"
             }
         }
-    ],
-    "resources": {
-        "default": {
-            "showtaskpane_defaultkey": {
-                "value": "CTRL+SHIFT+UP",
-                "comment": "Shortcut key for showtaskpane"
-            },
-            "hidetaskpane_defaultkey": {
-                "value": "CTRL+SHIFT+DOWN",
-                "comment": "Shortcut key for hidetaskpane"
-            }
-        }
-    }
+    ]
 }
