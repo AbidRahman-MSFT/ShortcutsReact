@@ -85,6 +85,6 @@
     </Resources>
   </VersionOverrides>  
   <ExtendedOverrides
-    Url="https://localhost:3000/dist/extendedManifest.json">
+    Url="https://localhost:3000/extendedManifest.json">
   </ExtendedOverrides>
 </OfficeApp>
